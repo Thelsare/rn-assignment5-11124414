@@ -3,14 +3,18 @@ Student ID: 11124414
  
 ## Screenshots of Apps
 
-
+##Screenshot of Settings In DarkMode
 
 ![alt text](172d749e-2897-4f53-b97b-bc089a5ea759.jpg)
 
-![alt text](b7f66dc8-79be-4d5d-9cb3-bdca17b7cc70.jpg)
+##Screenshot Of Settings In LightMode
 
+![alt text](b7f66dc8-79be-4d5d-9cb3-bdca17b7cc70.jpg)
+ 
+ ##Screenshots Of HomePage In LightMode
 ![alt text](d0907fb9-86c2-4e5f-b4dd-04902387f26a.jpg)
 
+##Screenshots of HomePage In DarkMode
 ![alt text](88078dd6-6e22-4cf9-ba48-4c7de7ee41a9.jpg)
 
 
@@ -20,7 +24,7 @@ Student ID: 11124414
 
 
 
-## ✨A Brief Description of how I built my application👩‍💻
+## Description of how App Was built 
 
 
 
