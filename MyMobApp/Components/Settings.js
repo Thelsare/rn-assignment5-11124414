@@ -1,58 +1,56 @@
 import React from 'react';
-import { View, FlatList, StyleSheet, Text, Switch } from 'react-native';
-import { useTheme } from '../component/ThemeContext';
+import { View, Text, StyleSheet, Switch, ScrollView } from 'react-native';
+import styled, { useTheme } from 'styled-components/native';
 
-const settings = [
-  { id: '1', title: 'Language' },
-  { id: '2', title: 'Change Profile' },
-  { id: '3', title: 'Password' },
-  { id: '4', title: 'Privacy' },
-  { id: '5', title: 'Contact Us' },
-];
+const Settings = ({ setIsDarkTheme, isDarkTheme }) => {
+  const theme = useTheme();
 
-const SettingsScreen = () => {
-  const { isDarkTheme, toggleTheme } = useTheme();
+  const toggleTheme = () => setIsDarkTheme(!isDarkTheme);
 
   return (
-    <View style={styles.container}>
-      <FlatList
-        data={settings}
-        keyExtractor={item => item.id}
-        renderItem={({ item }) => (
-          <View style={styles.item}>
-            <Text>{item.title}</Text>
-          </View>
-        )}
-        ListFooterComponent={
-          <View style={styles.switchContainer}>
-            <Text>Dark Theme</Text>
-            <Switch
-              value={isDarkTheme}
-              onValueChange={toggleTheme}
-            />
-          </View>
-        }
-      />
-    </View>
+    <ScrollView style={{ flex: 1, backgroundColor: theme.background }}>
+      <Container>
+        <SettingItem>
+          <SettingText>Language</SettingText>
+        </SettingItem>
+        <SettingItem>
+          <SettingText>My Profile</SettingText>
+        </SettingItem>
+        <SettingItem>
+          <SettingText>Contact Us</SettingText>
+        </SettingItem>
+        <SettingItem>
+          <SettingText>Change Password</SettingText>
+        </SettingItem>
+        <SettingItem>
+          <SettingText>Privacy Policy</SettingText>
+        </SettingItem>
+        <SettingItem>
+          <SettingText>Theme</SettingText>
+          <Switch value={isDarkTheme} onValueChange={toggleTheme} />
+        </SettingItem>
+      </Container>
+    </ScrollView>
   );
 };
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    padding: 20,
-  },
-  item: {
-    padding: 20,
-    borderBottomWidth: 1,
-    borderBottomColor: '#eee',
-  },
-  switchContainer: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-    padding: 20,
-  },
-});
+const Container = styled.View`
+  flex: 1;
+  padding: 16px;
+`;
 
-export default SettingsScreen;
+const SettingItem = styled.View`
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0;
+  border-bottom-width: 1px;
+  border-bottom-color: #ccc;
+`;
+
+const SettingText = styled.Text`
+  font-size: 16px;
+  color: ${({ theme }) => theme.text};
+`;
+
+export default Settings;
