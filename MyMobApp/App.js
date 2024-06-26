@@ -4,7 +4,7 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { ThemeProvider } from 'styled-components/native';
 import { Image } from 'react-native';
 import Homepage from './Components /Homepage';
-import Settings from './Components/Settings';
+import Settings from './Screens/Settings';
 import { lightTheme, darkTheme } from './theme';
 
 const Tab = createBottomTabNavigator();
