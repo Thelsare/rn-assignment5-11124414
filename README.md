@@ -6,12 +6,14 @@ Student ID: 11124414
 
 
 ![alt text](172d749e-2897-4f53-b97b-bc089a5ea759.jpg)
- <img src=" [alt text](172d749e-2897-4f53-b97b-bc089a5ea759.jpg)  " width="400" />
 
-![Homescreen in light mode](./assets/homescreen1.png)
+![alt text](b7f66dc8-79be-4d5d-9cb3-bdca17b7cc70.jpg)
+
+![alt text](d0907fb9-86c2-4e5f-b4dd-04902387f26a.jpg)
+
+![alt text](88078dd6-6e22-4cf9-ba48-4c7de7ee41a9.jpg)
 
 
-![Homescreen in dark mode](./assets/home_darkmode.png)
 
 
 
