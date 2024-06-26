@@ -37,7 +37,7 @@
 ## App Overview:
 The app is a mobile application developed using React Native,This app was developed in my Visual Studio code and viewed using Expo Go on my phone
 
-T
+
 ## Home Screen:
 The home screen is the central hub of the app, offering a user-friendly interface that provides instant access to essential features. The screen is intuitively divided into separate sections, starting with a visually appealing header that showcases a personalized profile image, a warm welcome message, and a search icon for easy navigation. Below the header, a prominent card image takes center stage, accompanied by a scrollable list of transactions that allows for effortless browsing and exploration.
 
