@@ -15,6 +15,8 @@
 
 ![alt text](d0907fb9-86c2-4e5f-b4dd-04902387f26a.jpg)
 
+ 
+
 ## Screenshots of HomePage In DarkMode
 
 
@@ -33,30 +35,22 @@
 
 
 ## App Overview:
-This app was built in expo snack
+The app is a mobile application developed using React Native,This app was developed in my Visual Studio code and viewed using Expo Go on my phone
 
-The app is a mobile application developed using React Native, which is a framework for creating cross-platform mobile apps. The app features two primary screens: a Home screen and a Settings screen.
-
+T
 ## Home Screen:
-The home screen serves as the primary interface for the app, providing comprehensive access to a user's profile details, a prominent card image, and a comprehensive list of transactions. The screen is thoughtfully organized into distinct sections, featuring a captivating header with a personalized profile image, a warm welcome message, and a convenient search icon. Positioned below the header is the eye-catching card image, accompanied by a scrollable list of transactions for easy browsing.
+The home screen is the central hub of the app, offering a user-friendly interface that provides instant access to essential features. The screen is intuitively divided into separate sections, starting with a visually appealing header that showcases a personalized profile image, a warm welcome message, and a search icon for easy navigation. Below the header, a prominent card image takes center stage, accompanied by a scrollable list of transactions that allows for effortless browsing and exploration.
+
 
 ## Settings Screen:
-The settings screen provides users with the ability to switch between a light and dark theme for the app. It presents a variety of setting options, among which is a "Theme" option featuring a switch that allows users to easily toggle between the two themes.
+The settings screen offers users the flexibility to customize their app experience by selecting either a light or dark theme. Within the settings options, a dedicated "Theme" section features a convenient toggle switch, enabling users to seamlessly switch between the two themes and personalize their app appearance to suit their preferences.
 
 ## Styling:
-I utilized styled-components, a widely used library for styling React components, to establish the visual styles for my app. This method enables me to create modular and reusable styling, streamlining the process of maintaining and updating the app's design.
+I leveraged Styled Components, a popular and versatile styling library for React, to define the visual aesthetic of my application. By utilizing this approach, I was able to create modular, reusable, and maintainable styling components, simplifying the process of updating and refining the app's design while promoting consistency and efficiency.
+
 
 ## Features:
 The app includes the followiung features;
 
-A Home screen with a profile section, card image, and transaction list
-A Settings screen with a theme toggle option
-Dynamic theming, allowing users to switch between light and dark themes
-Styled components for modular and reusable styling
-
-## Technologies Used
-
-React Native for building cross-platform mobile apps
-Styled-components for styling React components
-JavaScript and JSX for writing app logic and components
+The app features a user-centric home screen with a personalized profile section, a prominent card image, and a scrollable transaction list. Additionally, a dedicated Settings screen offers a convenient theme toggle, enabling users to dynamically switch between a sleek light theme and a dramatic dark theme. Furthermore, the app utilizes styled components, ensuring a modular and reusable styling approach that streamlines design maintenance and updates
 
